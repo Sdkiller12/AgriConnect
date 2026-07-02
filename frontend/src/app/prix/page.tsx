@@ -81,6 +81,8 @@ export default function PrixPage() {
       } catch (err: unknown) {
         const msg = err instanceof Error ? err.message : "Impossible de récupérer les cours du marché.";
         setError(msg);
+        setData(null);
+        setChartData([]);
       } finally {
         setLoading(false);
       }
