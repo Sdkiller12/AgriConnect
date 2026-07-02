@@ -1,0 +1,20 @@
+# Backend a son propre depot git dedie (push vers Hugging Face Space)
+backend/
+
+# Donnees d'entrainement volumineuses, non necessaires au deploiement
+dataset/
+data_par_culture/
+models/
+*.png
+inspection_report.json
+merge_summary.json
+training_summary.json
+
+# Environnements Python
+.venv/
+__pycache__/
+*.pyc
+
+# Frontend (Next.js gere deja son propre .gitignore)
+frontend/node_modules/
+frontend/.next/
