@@ -18,3 +18,6 @@ __pycache__/
 # Frontend (Next.js gere deja son propre .gitignore)
 frontend/node_modules/
 frontend/.next/
+
+# Config locale Claude Code
+.claude/
